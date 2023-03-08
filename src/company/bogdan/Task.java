@@ -38,6 +38,7 @@ public class Task {
     }
 
     private void performDestruction(){
+        System.out.println(this.taskName + " is killed");
         numberOfTasks--;
     }
 
